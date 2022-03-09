@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define max_size 10//macro 
+#define MAXSIZE 10//macro 
 int i,l;
 void search(const int ,const int *,const int);
 int main()
@@ -7,7 +7,7 @@ int main()
    int n,m;
    printf("enter the size of array:");
    scanf("%d",&n);
-   int a[max_size];
+   int a[MAXSIZE];
    printf("enter the elements:\n");
    for(i=0;i<n;i++)
    {
