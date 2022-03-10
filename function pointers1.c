@@ -11,7 +11,7 @@ void leftshift(int,int);
 void rightshift(int,int);
 int main()
 {
-    int a=25,b=5;
+    int a=100,b=10;
     void (*f[10])(int,int)={add,sub,mul,divi,modulo,logicaland,logicalor,assignment,leftshift,rightshift};
     f[0](a,b);
     f[1](a,b);
